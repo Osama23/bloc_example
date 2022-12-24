@@ -125,7 +125,7 @@ class _BugReportOverlayState extends State<BugReportOverlay> {
               left: 10,
               right: 10,
             ),
-            color: Colors.white,
+           // color: Colors.white,
             decoration: BoxDecoration(
               color: Colors.white.withOpacity(1),
               borderRadius: BorderRadius.circular(20),
