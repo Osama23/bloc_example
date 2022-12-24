@@ -7,7 +7,7 @@ class SentryReporter {
     await SentryFlutter.init(
           (options) {
             // https://e9f05a71b792469888af9661b54aa0db@o4504372053409792.ingest.sentry.io/4504383580733440
-        options.dsn = 'https://e9f05a71b792469888af9661b54aa0db@o4504372053409792.ingest.sentry.io/4504383580733440'; // put your api key
+        options.dsn = ''; // put your api key
         options.tracesSampleRate = 1.0;
         options.reportPackages = false;
         options.considerInAppFramesByDefault = false;
