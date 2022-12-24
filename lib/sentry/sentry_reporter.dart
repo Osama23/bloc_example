@@ -11,7 +11,7 @@ class SentryReporter {
         options.tracesSampleRate = 1.0;
         options.reportPackages = false;
         options.considerInAppFramesByDefault = false;
-        options.release = 'github@v1.0.1';
+        options.release = 'github@v1.0.0';
         options.environment = 'production';
         // options.environmentAttributes = {
         //   'app_version': '1.0.0',
